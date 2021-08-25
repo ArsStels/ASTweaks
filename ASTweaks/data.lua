@@ -1,0 +1,7 @@
+require("prototypes.recipe.spidertrone-parts")
+require("prototypes.recipe.rails")
+require("prototypes.recipe.msp-fix")
+require("prototypes.recipe.slaughterhouse")
+require("prototypes.technology.tech")
+require("prototypes.entity.train")
+require("prototypes.item.train")

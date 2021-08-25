@@ -1,0 +1,14 @@
+Version: 0.0.2
+Date: 17.08.2021
+  Changes:
+    - Fixed two technologies that made the game impossible to pass.
+-------------------------------------------------------------------
+Version: 0.0.3
+Date: 21.08.2021
+  Changes:
+    - Fixed recipe of slaughterhouse that required unreachable materials.
+-------------------------------------------------------------------
+Version: 0.0.4
+Date: 21.08.2021
+  Bugfixes:
+    - The MSP-4 recipe is returned.
