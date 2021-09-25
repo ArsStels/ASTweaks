@@ -12,3 +12,8 @@ Version: 0.0.4
 Date: 21.08.2021
   Bugfixes:
     - The MSP-4 recipe is returned.
+-------------------------------------------------------------------
+Version: 0.0.4
+Date: 21.08.2021
+  Changes:
+    - Add full dependencies.

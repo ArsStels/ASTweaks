@@ -1,7 +1,6 @@
 data.raw.recipe["rocket-part"].ingredients =
 {
 	{"rocket-fuel", 15},
-	{"rocket-booster", 25},
 	{"electric-engine-unit", 20},
 	{"low-density-structure", 10},
 	{"heat-shield-tile", 50},
