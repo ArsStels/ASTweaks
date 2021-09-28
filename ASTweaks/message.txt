@@ -1,0 +1,813 @@
+165.321 Loading mod astweaks 0.0.5 (data-final-fixes.lua)
+ 165.329 Script @__astweaks__/data-final-fixes.lua:13: {
+  allow_as_intermediate = false,
+  allow_decomposition = false,
+  always_show_made_in = true,
+  category = "hard-recycling",
+  enabled = false,
+  expensive = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "small-electric-pole",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount_max = 1,
+        amount_min = 1,
+        name = "wood",
+        probability = 0.75
+      },
+      {
+        amount = 1,
+        name = "copper-cable"
+      }
+    }
+  },
+  icons = {
+    {
+      icon = "__space-exploration-graphics__/graphics/blank.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    },
+    {
+      icon = "__base__/graphics/icons/small-electric-pole.png",
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        8,
+        -8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/scrap.png",
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        -8,
+        8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/transition-arrow.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    }
+  },
+  localised_description = {
+    "",
+    {
+      "recipe-description.mprd-caption"
+    },
+    " ",
+    {
+      "item-name.wood"
+    },
+    ", ",
+    {
+      "item-name.copper-cable"
+    },
+    " [1]"
+  },
+  localised_name = {
+    "recipe-name.se-generic-recycling",
+    {
+      "entity-name.small-electric-pole"
+    }
+  },
+  name = "se-recycle-small-electric-pole",
+  normal = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "small-electric-pole",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount_max = 1,
+        amount_min = 1,
+        name = "wood",
+        probability = 0.75
+      },
+      {
+        amount = 1,
+        name = "copper-cable"
+      }
+    }
+  },
+  subgroup = "space-recycling",
+  type = "recipe"
+}
+ 165.330 Script @__astweaks__/data-final-fixes.lua:13: {
+  allow_as_intermediate = false,
+  allow_decomposition = false,
+  always_show_made_in = true,
+  category = "hard-recycling",
+  enabled = false,
+  expensive = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "small-iron-electric-pole",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount = 1,
+        name = "iron-stick"
+      },
+      {
+        amount = 1,
+        name = "copper-cable"
+      }
+    }
+  },
+  icons = {
+    {
+      icon = "__space-exploration-graphics__/graphics/blank.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    },
+    {
+      icon = "__aai-industry__/graphics/icons/small-iron-electric-pole.png",
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        8,
+        -8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/scrap.png",
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        -8,
+        8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/transition-arrow.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    }
+  },
+  localised_description = {
+    "",
+    {
+      "recipe-description.mprd-caption"
+    },
+    " ",
+    {
+      "item-name.iron-stick"
+    },
+    " [1]",
+    ", ",
+    {
+      "item-name.copper-cable"
+    },
+    " [1]"
+  },
+  localised_name = {
+    "recipe-name.se-generic-recycling",
+    {
+      "entity-name.small-iron-electric-pole"
+    }
+  },
+  name = "se-recycle-small-iron-electric-pole",
+  normal = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "small-iron-electric-pole",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount = 1,
+        name = "iron-stick"
+      },
+      {
+        amount = 1,
+        name = "copper-cable"
+      }
+    }
+  },
+  subgroup = "space-recycling",
+  type = "recipe"
+}
+ 165.330 Script @__astweaks__/data-final-fixes.lua:13: {
+  allow_as_intermediate = false,
+  allow_decomposition = false,
+  always_show_made_in = true,
+  category = "hard-recycling",
+  enabled = false,
+  expensive = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "medium-electric-pole",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount = 1,
+        name = "small-electric-pole"
+      },
+      {
+        amount = 1,
+        name = "steel-plate"
+      },
+      {
+        amount = 3,
+        name = "copper-cable"
+      },
+      {
+        amount_max = 1,
+        amount_min = 1,
+        name = "small-iron-electric-pole",
+        probability = 0.75
+      },
+      {
+        amount = 7,
+        name = "creosote"
+      }
+    }
+  },
+  icons = {
+    {
+      icon = "__space-exploration-graphics__/graphics/blank.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    },
+    {
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        8,
+        -8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/scrap.png",
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        -8,
+        8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/transition-arrow.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    }
+  },
+  localised_description = {
+    "",
+    {
+      "recipe-description.mprd-caption"
+    },
+    " ",
+    {
+      "entity-name.small-electric-pole"
+    },
+    " [1]",
+    ", ",
+    {
+      "item-name.steel-plate"
+    },
+    " [1]",
+    ", ",
+    {
+      "item-name.copper-cable"
+    },
+    " [3]",
+    ", ",
+    {
+      "entity-name.small-iron-electric-pole"
+    },
+    ", ",
+    {
+      "item-name.creosote"
+    },
+    " [7]"
+  },
+  localised_name = {
+    "recipe-name.se-generic-recycling",
+    {
+      "entity-name.medium-electric-pole"
+    }
+  },
+  name = "se-recycle-medium-electric-pole",
+  normal = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "medium-electric-pole",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount = 1,
+        name = "small-electric-pole"
+      },
+      {
+        amount = 1,
+        name = "steel-plate"
+      },
+      {
+        amount = 3,
+        name = "copper-cable"
+      },
+      {
+        amount_max = 1,
+        amount_min = 1,
+        name = "small-iron-electric-pole",
+        probability = 0.75
+      },
+      {
+        amount = 7,
+        name = "creosote"
+      }
+    }
+  },
+  subgroup = "space-recycling",
+  type = "recipe"
+}
+ 165.331 Script @__astweaks__/data-final-fixes.lua:13: {
+  allow_as_intermediate = false,
+  allow_decomposition = false,
+  always_show_made_in = true,
+  category = "hard-recycling",
+  enabled = false,
+  expensive = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "big-electric-pole",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount = 6,
+        name = "iron-stick"
+      },
+      nil,
+      {
+        amount = 7,
+        name = "copper-cable"
+      },
+      {
+        amount_max = 1,
+        amount_min = 1,
+        name = "concrete",
+        probability = 0.75
+      },
+      {
+        amount_max = 1,
+        amount_min = 1,
+        name = "niobium-plate",
+        probability = 0.75
+      },
+      {
+        amount = 11,
+        name = "copper-cable"
+      }
+    }
+  },
+  icons = {
+    {
+      icon = "__space-exploration-graphics__/graphics/blank.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    },
+    {
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        8,
+        -8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/scrap.png",
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        -8,
+        8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/transition-arrow.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    }
+  },
+  localised_description = {
+    "",
+    {
+      "recipe-description.mprd-caption"
+    },
+    " ",
+    {
+      "item-name.iron-stick"
+    },
+    " [6]",
+    ", ",
+    {
+      "item-name.copper-cable"
+    },
+    " [7]",
+    ", ",
+    {
+      "item-name.concrete"
+    },
+    ", ",
+    {
+      "item-name.niobium-plate"
+    },
+    ", ",
+    {
+      "item-name.copper-cable"
+    },
+    " [11]"
+  },
+  localised_name = {
+    "recipe-name.se-generic-recycling",
+    {
+      "entity-name.big-electric-pole"
+    }
+  },
+  name = "se-recycle-big-electric-pole",
+  normal = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "big-electric-pole",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount = 6,
+        name = "iron-stick"
+      },
+      nil,
+      {
+        amount = 7,
+        name = "copper-cable"
+      },
+      {
+        amount_max = 1,
+        amount_min = 1,
+        name = "concrete",
+        probability = 0.75
+      },
+      {
+        amount_max = 1,
+        amount_min = 1,
+        name = "niobium-plate",
+        probability = 0.75
+      },
+      {
+        amount = 11,
+        name = "copper-cable"
+      }
+    }
+  },
+  subgroup = "space-recycling",
+  type = "recipe"
+}
+ 165.332 Script @__astweaks__/data-final-fixes.lua:13: {
+  allow_as_intermediate = false,
+  allow_decomposition = false,
+  always_show_made_in = true,
+  category = "hard-recycling",
+  enabled = false,
+  expensive = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "substation",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount = 15,
+        name = "copper-cable"
+      },
+      {
+        amount = 7,
+        name = "steel-plate"
+      },
+      {
+        amount = 3,
+        name = "concrete"
+      },
+      {
+        amount = 3,
+        name = "advanced-circuit"
+      }
+    }
+  },
+  icons = {
+    {
+      icon = "__space-exploration-graphics__/graphics/blank.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    },
+    {
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        8,
+        -8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/scrap.png",
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        -8,
+        8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/transition-arrow.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    }
+  },
+  localised_description = {
+    "",
+    {
+      "recipe-description.mprd-caption"
+    },
+    " ",
+    {
+      "item-name.copper-cable"
+    },
+    " [15]",
+    ", ",
+    {
+      "item-name.steel-plate"
+    },
+    " [7]",
+    ", ",
+    {
+      "item-name.concrete"
+    },
+    " [3]",
+    ", ",
+    {
+      "item-name.advanced-circuit"
+    },
+    " [3]"
+  },
+  localised_name = {
+    "recipe-name.se-generic-recycling",
+    {
+      "entity-name.substation"
+    }
+  },
+  name = "se-recycle-substation",
+  normal = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "substation",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount = 15,
+        name = "copper-cable"
+      },
+      {
+        amount = 7,
+        name = "steel-plate"
+      },
+      {
+        amount = 3,
+        name = "concrete"
+      },
+      {
+        amount = 3,
+        name = "advanced-circuit"
+      }
+    }
+  },
+  subgroup = "space-recycling",
+  type = "recipe"
+}
+ 165.333 Script @__astweaks__/data-final-fixes.lua:13: {
+  allow_as_intermediate = false,
+  allow_decomposition = false,
+  always_show_made_in = true,
+  category = "hard-recycling",
+  enabled = false,
+  expensive = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "radar",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount = 15,
+        name = "iron-plate"
+      },
+      {
+        amount = 6,
+        name = "electronic-circuit"
+      },
+      {
+        amount = 3,
+        name = "stone-brick"
+      },
+      {
+        amount = 3,
+        name = "electric-motor"
+      }
+    }
+  },
+  icons = {
+    {
+      icon = "__space-exploration-graphics__/graphics/blank.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    },
+    {
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        8,
+        -8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/scrap.png",
+      icon_size = 64,
+      scale = 0.33000000000000003,
+      shift = {
+        -8,
+        8
+      }
+    },
+    {
+      icon = "__space-exploration-graphics__/graphics/icons/transition-arrow.png",
+      icon_size = 64,
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      }
+    }
+  },
+  localised_description = {
+    "",
+    {
+      "recipe-description.mprd-caption"
+    },
+    " ",
+    {
+      "item-name.iron-plate"
+    },
+    " [15]",
+    ", ",
+    {
+      "item-name.electronic-circuit"
+    },
+    " [6]",
+    ", ",
+    {
+      "item-name.stone-brick"
+    },
+    " [3]",
+    ", ",
+    {
+      "item-name.electric-motor"
+    },
+    " [3]"
+  },
+  localised_name = {
+    "recipe-name.se-generic-recycling",
+    {
+      "entity-name.radar"
+    }
+  },
+  name = "se-recycle-radar",
+  normal = {
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+      {
+        amount = 1,
+        name = "radar",
+        type = "item"
+      }
+    },
+    results = {
+      {
+        amount = 15,
+        name = "iron-plate"
+      },
+      {
+        amount = 6,
+        name = "electronic-circuit"
+      },
+      {
+        amount = 3,
+        name = "stone-brick"
+      },
+      {
+        amount = 3,
+        name = "electric-motor"
+      }
+    }
+  },
+  subgroup = "space-recycling",
+  type = "recipe"
+}
